@@ -24,7 +24,7 @@ def mainFunction():
     
     # modifying a global variable  
     print("After modifying the global variable inside function, the value will get changed afterwords.")
-    x = 'Welcome To Javatpoint'  
+    x = 'Modifying the Global Variable from inside the function.'  
     print(x)  
 
 # calling the function 
