@@ -1,0 +1,39 @@
+Python Data Types
+
+Data types are the classification or categorization of knowledge items. It represents the type useful that tells what operations are often performed on
+specific data. Since everything is an object in Python programming, data types are classes and variables are instances (object) of those classes.
+
+Every value has its own python data type, in the python programming language. The classification of knowledge items or to place the info value into
+data category is named Data Types. It helps to know what quiet operations are often performed on a worth.
+
+A data type, in programming, is a classification that specifies which type of value a variable has. 
+Primarily there are following data types in Python.
+    • Integers (<class 'int'>): Used to store integers
+    • Floating point numbers (<class 'float'>): Used to store decimal or floating-point numbers
+    • Strings (<class 'str'>): Used to store strings
+    • Booleans (<class 'bool'>): Used to store True/False type values
+    • None: None is a literal to describe 'Nothing' in Python
+    • List
+    • Tuple
+    • Set
+    • Dictionary
+
+
+Python type() Function
+
+To define the values ​​of various data types and check their data types we use the type() function. The type() function is mostly used for debugging purposes. 
+Two different types of arguments can be passed to type() function, single and three arguments. 
+
+If a single argument type(obj) is passed, it returns the type of the given object. 
+    Syntax: type(object)
+
+If three argument types (object, bases, dict) are passed, it returns a new type object. 
+    Syntax: type(object, bases, dict)
+
+
+Parameters : 
+    object: Required. If only one parameter is specified, the type() function returns the type of this object
+    bases : tuple of classes from which the current class derives. Later corresponds to the __bases__ attribute. 
+    dict : a dictionary that holds the namespaces for the class. Later corresponds to the __dict__ attribute.
+    Return: in case of single argument types, returns type of given object & in case of three argument types, returns a new type class or essentially a metaclass.
+
