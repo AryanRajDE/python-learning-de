@@ -1,3 +1,5 @@
+Python Variables
+
 A variable is the name given to a memory location. A value-holding Python variable is also known as an Identifier.
 
 -- Python Variable Types -- 
@@ -10,7 +12,9 @@ There are two types of variables in Python - Local variable and Global variable.
                     By default, a variable declared outside of the function serves as the global variable.
                     The function treats it as a local variable if we don't use the global keyword.
 
--- Python Reserved Keywords --
+
+Python Reserved Keywords
+
 Python have some reserved keywords which we cannot use as a variable name. Below are the reserved python keywords –
 
     Boolean Keywords : True, False
